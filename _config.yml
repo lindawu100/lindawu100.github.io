@@ -20,3 +20,18 @@ plugins:
 # Custom vars
 version:             1.1.0
 google_analytics_id: #UA-XXXX-Y
+
+social:
+  - name: Twitter
+    icon: twitter
+    username: lindawu100
+    url: https://twitter.com/Lindawu100
+    desc: Follow me on Twitter
+    share: true
+
+  - name: GitHub
+    icon: github
+    username: lindawu100
+    url: https://github.com/lindawu100
+    desc: Fork me on GitHub
+    share: false

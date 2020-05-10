@@ -123,6 +123,36 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.site-footer {
+  padding-top:    1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #eee;
+}
+.site-footer-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #505050;
+}
+.site-footer-title a {
+  color: #505050;
+}
+.site-footer-title small {
+  font-size: 75%;
+  font-weight: 400;
+  color: #c0c0c0;
+  letter-spacing: 0;
+}
+
+@media (max-width: 48em) {
+  .site-footer-title {
+    text-align: center;
+  }
+  .site-footer-title small {
+    display: none;
+  }
+}
+
 
 /*
  * Sidebar
@@ -435,6 +465,18 @@ a.pagination-item:hover {
  * Apply custom color schemes by adding the appropriate class to the `body`.
  * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
  */
+
+/* custom color */
+.theme-base-0g .sidebar,
+.theme-base-0g .sidebar-toggle:active,
+.theme-base-0g #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #F340AF;
+}
+.theme-base-0g .container a,
+.theme-base-0g .sidebar-toggle,
+.theme-base-0g .related-posts li a:hover {
+  color: #F340AF;
+}
 
 /* Red */
 .theme-base-08 .sidebar,
