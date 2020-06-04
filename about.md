@@ -1,28 +1,12 @@
 ---
 layout: page
-title: About
+title: Hello World
 ---
 
-<p class="message">
+# About me
+在程式麻瓜的階段，意外發現程式語言的趣味，於是下定決心付諸實踐
+加入用程式改變世界的行列
+沿路有許多前輩的引導，因此開始寫部落格
+記錄學習歷程，期望也能幫助到其他人
 
-</p>
-
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-
-Thanks for reading!
+[GitHub](https://github.com/lindawu100).
