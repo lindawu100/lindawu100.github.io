@@ -1,7 +1,7 @@
 # Setup
 title:               'Reindeer Note'
 tagline:             'Keep learning, growing & enjoying!'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         '期許自己能從程式麻瓜成長為可以創造實用工具'
 url:                 https://lindawu100.github.io
 baseurl:             ''
 paginate:            5
