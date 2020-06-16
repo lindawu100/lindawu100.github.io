@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Rails, Devise
+title: Rails 6 + Devise 串第三方登入 google, fb
 ---
-
-# Rails 6 + Devise 串第三方登入 google, fb
 
 紀錄串接第三方登入的實作過程
 發現網路上有如此豐富的資源，還有許多好用的套件，真是<del>一件十分幸福的事</del>非常適合懶人！
