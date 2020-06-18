@@ -4,8 +4,11 @@ title: Ruby & Kata (method - digits, permutation)
 ---
 
 ## [Kata] Next bigger number with the same digits
+
 ### Target
+
 Create a function that takes a positive integer and returns the next bigger number that can be formed by rearranging its digits.
+
 給定數字 N ，寫一個方法使用數字 N 中的數字們排列組合，回傳比數字 N 大的下一個數字。
 ### Example
 ```ruby
