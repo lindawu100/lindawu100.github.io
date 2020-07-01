@@ -104,8 +104,8 @@ p add_two.===(3)   # 5
 ```
 
 ### Proc & Lambda 差異
-Proc 的 block 內加入 `return` ，就會立即跳出
-Lambda 的 block 內加入 `return` ，會交回控制權，繼續執行方法後續的城市碼
+Proc 的 block 內加入 `return` ，就會立即跳出；
+Lambda 的 block 內加入 `return` ，會交回控制權，繼續執行方法後續的程式碼
 ```ruby
 def hi_proc
   say_hi = Proc.new { return "hi" }
@@ -132,3 +132,7 @@ say_hi_lambda = lambda { |first, second| puts "Hi, #{first} and #{second}" }
 say_hi_proc.call('Andy')   # Hi, Andy and
 say_hi_lambda.call('Andy') # wrong number of arguments (given 1, expected 2)
 ```
+
+參考：
+1. [Ruby 中的 Block、Proc、Lambda 是什麼？](https://riverye.com/2019/11/15/Ruby-中的-Block、Proc、Lambda-是什麼？/)
+2. [方法與程式碼區塊(block)](https://railsbook.tw/chapters/07-ruby-basic-3.html)
