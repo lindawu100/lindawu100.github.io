@@ -27,7 +27,7 @@ end
 ```
 
 ### Leetcode
-Target: Single Number
+### 136. Single Number
 
 Given a non-empty array of integers, every element appears twice except for one. Find that single one
 
@@ -51,5 +51,38 @@ Others' solution:
 ```ruby
 def single_number(nums)
   nums.reduce(:^)
+end
+```
+
+### 283. Move Zeroes
+
+Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+Example:
+```ruby
+Input: [0,1,0,3,12]
+Output: [1,3,12,0,0]
+```
+Note:
+
+You must do this in-place without making a copy of the array.
+Minimize the total number of operations.
+
+```ruby
+def move_zeroes(nums)
+    x = 0
+    y = 0
+    while y < nums.length
+        if nums[y] == 0
+            y += 1
+        else
+            tmp = nums[y]
+            nums[y] = nums[x]
+            nums[x] = tmp
+
+            x += 1
+            y += 1
+        end
+    end
 end
 ```
