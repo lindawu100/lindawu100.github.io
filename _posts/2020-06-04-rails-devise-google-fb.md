@@ -11,7 +11,7 @@ title: Rails 6 + Devise 串第三方登入 google, fb
 In Gemfile
 
 ```ruby
-ygem 'omniauth'
+gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
 gem 'figaro'
