@@ -3,7 +3,7 @@ layout: post
 title: Rails 6 + Devise 串第三方登入 google, fb
 ---
 
-紀錄串接第三方登入的實作過程
+紀錄串接第三方登入的實作過程<br>
 發現網路上有如此豐富的資源，還有許多好用的套件，真是一件十分幸福的事<small><del>非常適合懶人</del></small>！
 
 ## step 1.
@@ -17,8 +17,8 @@ gem 'omniauth-google-oauth2'
 gem 'figaro'
 ```
 `bundle install`
-啟動figaro：`bundle exec figaro install`
-此時會長出config/application.yml，並將檔案加入.gitignore
+啟動figaro：`bundle exec figaro install`<br>
+此時會長出config/application.yml，並將檔案加入.gitignore<br>
 figaro為設定環境變數的管理套件：[figaro](https://github.com/laserlemon/figaro)
 
 ## step 2.
