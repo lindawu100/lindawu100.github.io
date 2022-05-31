@@ -3,7 +3,7 @@ title:               'Reindeer Note'
 tagline:             'Keep learning, growing & enjoying!'
 description:         '期許自己能從程式麻瓜成長為可以創造實用工具'
 url:                 https://lindawu100.github.io
-baseurl:             'lindawu.site'
+baseurl:             ''
 paginate:            5
 permalink:           pretty
 
